@@ -12,6 +12,10 @@ async function handleSubmit(e) {
     response => { console.log(response); messages.value = response }
   );
 }
+
+async function login() {
+  
+}
 </script>
 
 <template>
